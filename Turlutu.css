@@ -1,0 +1,261 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none; 
+    box-sizing: border-box
+}
+
+
+
+header {
+
+    font-weight: lighter;
+    font-size: 9pt;
+    color:white;
+    padding:10px;
+    background-color:#333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header li {
+
+    padding-right: 30px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Login {
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+/*Première partie bleue*/
+
+.DeuxiemePartie {
+
+    padding: 30px;
+    font-weight: normal;
+    font-size: 15pt;
+    color: white;
+    background-color: #1e93cc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.DeuxiemePartie h2{
+
+    margin-bottom: 30px;
+}
+
+
+div {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:stretch;
+
+}
+
+img[src="tete2.png"] {
+
+position: relative;
+bottom: 10px;
+right: 220px;
+
+
+}
+
+
+/*Première bande blanche*/
+
+.TroisiemePartie {
+    font-weight: lighter; 
+    font-size:20pt;
+    padding: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+/* deuxième bande bleue*/
+
+.QuatriemePartie {
+
+    background-color:#1e93cc;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    font-size: 10pt;
+    height: 8cm;
+
+}
+
+h3 {
+    font-size: 15pt
+}
+
+.Paragraphe12{
+
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    padding: 80px;
+    
+
+}
+
+.Paragraphe34 {
+    
+    display:flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.logoMessage {
+
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+
+}
+
+.QuatriemePartie p{
+
+    padding-top:5px;
+     
+}
+.QuatriemePartie h3 {
+
+    padding-top:20px;
+}
+
+/*Deuxième bande blanche*/
+.CinquiemePartie {
+
+    font-weight: lighter; 
+    font-size:17pt;
+    padding: 30px;
+    color: gray;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1cm
+
+}
+
+/*Bande aux logos*/
+
+.SixiemePartie {
+
+    background-color: whitesmoke;
+    
+    height: 6cm;
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    align-content: space-between;
+    padding : 40px 200px;
+}
+.SixiemePartie img
+{
+    margin-right : 30px;
+}
+
+
+
+.septiemePartie {
+
+    background-color: white;
+    font-size: 15pt;
+    color: white;
+    height: 5cm;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+button.blue {
+
+    background-color:#165882;
+    color: white;
+    height : 60px;
+    padding : 20px 30px; 
+    border : 2px solid white;
+    border-radius: 7px; 
+    margin-right : 1px;
+
+}
+
+button.orange {
+
+    background-color: #e99002;;
+    color: white;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 7px;
+
+}
+
+/*Bas*/
+
+footer {
+
+
+    font-weight: lighter;
+    font-size: 9pt;
+    color:white;
+    padding:40px;
+    background-color:#333333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+
+}
+
+footer p {
+
+    padding-right: 20px;
+    border-left: 1px dotted white;
+
+}
+.Date {
+
+    position: absolute;
+    right : 10px;
+
+}
+
+footer p 
+{
+    position: relative;
+    bottom: 20px;s
+} 
